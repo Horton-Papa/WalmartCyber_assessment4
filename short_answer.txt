@@ -1,0 +1,24 @@
+1) What is the difference between a client and a server? In the HTTP protocol,
+which one of these sends requests, and which one sends responses?
+
+client is usually referred to as the front end of a website or an application. It is where we setup or decide how the user will interact with the application. In an
+HTTP, this would be the side that requests responses.
+
+server is referred to the backend. It is how the information is handled from the front end requests. In an HTTP, it is the side that sends the information
+-------------------
+2) What do we mean by a "route" on a server?
+The route is how the server knows which controller to utilize based on the request on the front end. 
+
+-------------------
+3) The steps below de describe what happens when a user goes to
+a URL like https://facebook.com/home in their browser, but are out of order.
+Put them in the correct order from start to finish.
+
+- The User types in https://facebook.com/home and hits enter
+- The user's browser sends a request to a Facebook server for the route /home
+- The server runs a function associated to the route /home, which produces some HTML
+- The server sends that HTML back to the user's browser as a response
+- The user's browser displays the HTML it recieved
+
+
+
